@@ -17,7 +17,7 @@ with open('file.json', 'r') as myfile:
 @app.route("/")
 12
 def index():
-13
+    
     return render_template('index.html', title="page", jsonfile=json.dumps(data))
 14
 15
