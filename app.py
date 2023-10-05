@@ -11,7 +11,6 @@ app = Flask(__name__,template_folder='.')
 # read file
 8
 with open('file.json', 'r') as myfile:
-9
     data = myfile.read()
 10
 11
