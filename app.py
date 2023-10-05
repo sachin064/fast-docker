@@ -2,7 +2,7 @@
 
 import json
 
-from flask import Flask, render_template
+from flask import Flask, render_template # pylint: disable=invalid-name
 
 app = Flask(__name__,template_folder='.')
 
