@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_fast_docker_1696488068322-pr-trigger-input-set
+  identifier: Build_fast_docker_1696488068322prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: sample
+  pipeline:
+    identifier: Build_fast_docker_1696488068322
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
